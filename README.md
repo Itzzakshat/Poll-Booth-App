@@ -1,5 +1,5 @@
 # Poll Booth
-Vikram and Pavithra want to decide upon a design for Delta T Shirt. They decided to put up a poll among Delta members to select a design. So they asked their juniors to develop a portal which facilitates polling among teams.
+Anuj and Poonam want to decide upon a design for an App. They decided to put up a poll among design team members to select a design. So they asked their juniors to develop a portal which facilitates polling among teams.
 
 They need a website which allows creation of teams and polls within the team members built upon a full fledged frontend and backend.
 
@@ -16,7 +16,6 @@ npm run start
 ```
 5. Now, navigate to http://localhost:3000
 
-## Normal Mode:
 - [x] Have a user management system with authentication that allows users to register and login on the site.
 - [x] Create a team and be able to invite users to the team.
 - [x] Create a poll with variable number of text options within the team.
@@ -24,17 +23,3 @@ npm run start
 - [x] Show the results of poll after admin ends it.
 - [x] Design a neat, intuitive UI ( make the site responsive, legible text, etc ).
 
-## Hacker Mode:
-- [x] Have a deadline for automatically ending polls.
-- [x] Support for different types of options such as images, audio and video.
-- [x] Notifications to the admin when someone submits a vote, joins their team using invite, etc.
-- [x] Validate the registration forms (check for duplicate usernames, determine password strength, etc).
-- [x] Add plots/graphs to visualize results of polls.
-- [ ] Prevent SQL injection.
-
-## Hacker Mode++:
-- [x] Ability to add multiple admins and user roles (like teachers, CR, students etc).
-- [x] Send notifications through email.
-- [x] Google Calendar API integration to keep track of deadlines for polls.
-- [x] Add real time chat feature.
-- [ ] Add real time video conferencing feature.
